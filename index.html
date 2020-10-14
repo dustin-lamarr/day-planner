@@ -20,102 +20,110 @@
     <p id="currentDay" class="lead" style="color:#C8102E ; font-size:24px"></p>
   </header>
 
-  <div class="container border">
-    <div class="row time-block" id="nine-ten" value='10'>
+  <div class="container border" id='work-hours'>
+    <div class="row time-block" id="nine" value='9'>
       <div class="col-3 hour">
         <p>09:00</p>
       </div>
-        <div class='col-6' id='nine-ten-events'>
+      <div class='col-6' id='nine-events'>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
       </div>
-      <div class="col-3" id="nine-ten-save"><button class="btn btn-primary saveBtn">save</button></div>
-      </div>
+      <div class="col-3" id="nine-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
 
-    <div class="row time-block" id="ten-eleven">
+    <div class="row time-block" id="ten" value="10">
       <div class="col-3 hour">
         <p>10:00</p>
       </div>
-        <div class='col-6' id='ten-eleven-events'>
+      <div class='col-6' id='tenevents'>
         <div class="input-group mb-3 description">
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
       </div>
-      <div class="col-3" id="ten-eleven-save"><button class="btn btn-primary saveBtn">save</button></div>
+      <div class="col-3" id="ten-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
+
+    <div class="row time-block" id="eleven" value='11'>
+      <div class="col-3 hour">
+        <p>11:00</p>
       </div>
+      <div class='col-6' id='eleven-events'>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div>
+      </div>
+      <div class="col-3" id="eleven-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
 
-      <div class="row time-block" id="eleven-twelve">
-        <div class="col-3 hour">
-          <p>11:00</p>
+    <div class="row time-block" id="twelve" value="12">
+      <div class="col-3 hour">
+        <p>12:00</p>
+      </div>
+      <div class='col-6' id='twleve-events'>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
-          <div class='col-6' id='eleven-twelve-events'>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-        </div>
-        <div class="col-3" id="eleven-twelve-save"><button class="btn btn-primary saveBtn">save</button></div>
-        </div>
+      </div>
+      <div class="col-3" id="twleve-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
 
-      <div class="row time-block" id="twleve-thirteen">
-        <div class="col-3 hour">
-          <p>12:00</p>
+    <div class="row time-block" id="thirteen" value='13'>
+      <div class="col-3 hour">
+        <p>13:00</p>
+      </div>
+      <div class='col-6' id='thirteen-events'>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
-          <div class='col-6' id='twleve-thirteen-events'>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-        </div>
-        <div class="col-3" id="twleve-thirteen-save"><button class="btn btn-primary saveBtn">save</button></div>
-        </div>
+      </div>
+      <div class="col-3" id="thirteen-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
 
-      <div class="row time-block" id="thirteen-fourteen">
-        <div class="col-3 hour">
-          <p>13:00</p>
+    <div class="row time-block" id="fourteen" value='14'>
+      <div class="col-3 hour">
+        <p>14:00</p>
+      </div>
+      <div class='col-6' id='fourteen-events'>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
-          <div class='col-6' id='thirteen-fourteen-events'>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-        </div>
-        <div class="col-3" id="thirteen-fourteen-save"><button class="btn btn-primary saveBtn">save</button></div>
-        </div>
+      </div>
+      <div class="col-3" id="fourteen-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
 
-      <div class="row time-block" id="fourteen-fifteen">
-        <div class="col-3 hour">
-          <p>14:00</p>
+    <div class="row time-block" id="fifteen" value='15'>
+      <div class="col-3 hour">
+        <p>15:00</p>
+      </div>
+      <div class='col-6' id='fifteen-events'>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
-          <div class='col-6' id='fourteen-fifteen-events'>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-        </div>
-        <div class="col-3" id="fourteen-fifteen-save"><button class="btn btn-primary saveBtn">save</button></div>
-        </div>
+      </div>
+      <div class="col-3" id="fifteen-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
 
-      <div class="row time-block" id="fifteen-sixteen">
-        <div class="col-3 hour">
-          <p>15:00</p>
+    <div class="row time-block" id="sixteen" value='16'>
+      <div class="col-3 hour">
+        <p>16:00</p>
+      </div>
+      <div class='col-6' id='sixteen-events'>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
         </div>
-          <div class='col-6' id='fifteen-sixteen-events'>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-        </div>
-        <div class="col-3" id="fifteen-sixteen-save"><button class="btn btn-primary saveBtn">save</button></div>
-        </div>
-
-      <div class="row time-block" id="sixteen-seventeen">
-        <div class="col-3 hour">
-          <p>16:00</p>
-        </div>
-          <div class='col-6' id='sixteen-seventeen-events'>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-        </div>
-        <div class="col-3" id="sixteen-seventeen-save"><button class="btn btn-primary saveBtn">save</button></div>
-        </div>
+      </div>
+      <div class="col-3" id="sixteen-save"><button class="btn btn-primary saveBtn">save</button></div>
+    </div>
     <!-- Timeblocks go here -->
   </div>
 
