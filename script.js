@@ -28,54 +28,71 @@ if (currentHour > plannerHour) {
 $('#nine-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#nine').val();
-    console.log(saveEvent);
     localStorage.setItem('nine' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('nine');
+    $('#nine').val(newEvent);
 
 $('#ten-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#ten').val();
-    console.log(saveEvent);
     localStorage.setItem('ten' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('ten');
+    $('#ten').val(newEvent);
 
 $('#eleven-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#elevent').val();
-    console.log(saveEvent);
     localStorage.setItem('eleven' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('eleven');
+    $('#eleven').val(newEvent);
 
 $('#twelve-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#twelve').val();
-    console.log(saveEvent);
     localStorage.setItem('twelve' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('twelve');
+    $('#twelve').val(newEvent);
 
 $('#thirteen-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#thirteen').val();
-    console.log(saveEvent);
     localStorage.setItem('thirteen' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('thirteen');
+    $('#thirteen').val(newEvent);
 
 $('#fourteen-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#fourteen').val();
-    console.log(saveEvent);
     localStorage.setItem('fourteen' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('fourteen');
+    $('#fourteen').val(newEvent);
 
 $('#fifteen-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#fifteen').val();
-    console.log(saveEvent);
     localStorage.setItem('fifteen' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('fifteen');
+    $('#fifteen').val(newEvent);
+
 $('#sixteen-save').on('click', function(event){
     event.preventDefault();
     var saveEvent = $('#sixteen').val();
-    console.log(saveEvent);
     localStorage.setItem('sixteen' , saveEvent);
 })
+
+var newEvent = localStorage.getItem('sixteen');
+    $('#sixteen').val(newEvent);
