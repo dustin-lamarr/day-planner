@@ -10,7 +10,8 @@ var timeSlots = ['#nine', '#ten', '#eleven', '#twelve', '#thirteen', '#fourteen'
 $.each(timeSlots, function (i , hour)  {
 var currentHour = moment().format('H');
 var plannerHour = $(hour).attr('value');
-
+parseInt(plannerHour);
+console.log(plannerHour);
 if (currentHour < plannerHour) {
     $(hour).addClass('future');
 }
@@ -26,55 +27,55 @@ if (currentHour > plannerHour) {
 
 $('#nine-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#nine-event').val();
+    var saveEvent = $('#nine').val();
     console.log(saveEvent);
-    localStorage.setItem('nine-event' , saveEvent);
+    localStorage.setItem('nine' , saveEvent);
 })
 
 $('#ten-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#ten-event').val();
+    var saveEvent = $('#ten').val();
     console.log(saveEvent);
-    localStorage.setItem('ten-event' , saveEvent);
+    localStorage.setItem('ten' , saveEvent);
 })
 
 $('#eleven-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#eleven-event').val();
+    var saveEvent = $('#elevent').val();
     console.log(saveEvent);
-    localStorage.setItem('eleven-event' , saveEvent);
+    localStorage.setItem('eleven' , saveEvent);
 })
 
 $('#twelve-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#twelve-event').val();
+    var saveEvent = $('#twelve').val();
     console.log(saveEvent);
-    localStorage.setItem('twelve-event' , saveEvent);
+    localStorage.setItem('twelve' , saveEvent);
 })
 
 $('#thirteen-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#thirteen-event').val();
+    var saveEvent = $('#thirteen').val();
     console.log(saveEvent);
-    localStorage.setItem('thirteen-event' , saveEvent);
+    localStorage.setItem('thirteen' , saveEvent);
 })
 
 $('#fourteen-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#fourteen-event').val();
+    var saveEvent = $('#fourteen').val();
     console.log(saveEvent);
-    localStorage.setItem('fourteen-event' , saveEvent);
+    localStorage.setItem('fourteen' , saveEvent);
 })
 
 $('#fifteen-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#fifteen-event').val();
+    var saveEvent = $('#fifteen').val();
     console.log(saveEvent);
-    localStorage.setItem('fifteen-event' , saveEvent);
+    localStorage.setItem('fifteen' , saveEvent);
 })
 $('#sixteen-save').on('click', function(event){
     event.preventDefault();
-    var saveEvent = $('#sixteen-event').val();
+    var saveEvent = $('#sixteen').val();
     console.log(saveEvent);
-    localStorage.setItem('sixteen-event' , saveEvent);
+    localStorage.setItem('sixteen' , saveEvent);
 })
