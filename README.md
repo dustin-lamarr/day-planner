@@ -1,4 +1,4 @@
-## homework-5
+## Day-Planner
 This project is a day planner that allows the user to enter events into each time slot for the work day. The events are stored locally, so that they can be revisited or edited throughout the day.
 
 ## Motivation
